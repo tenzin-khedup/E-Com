@@ -19,6 +19,9 @@ export default async function Home() {
               Welcome to Samten&apos;s Carpet
             </h2>
             <p className="text-neutral-600">
+              Specializing in hand-knotted Tibetan carpets, using hand-spun and
+              hand-carded 100% Tibetan wool.
+              <br />
               Discover the latest products at the best prices.
             </p>
             <Button
@@ -34,19 +37,20 @@ export default async function Home() {
               </Link>
             </Button>
           </div>
-
-          <Image
-            alt="Hero Image"
-            src={products.data[0].images[0]}
-            className="rounded"
-            width={450}
-            height={450}
-          />
+          <Link href={"/products"}>
+            <Image
+              alt="Hero Image"
+              src={products.data[3].images[0]}
+              className="rounded cursor-pointer"
+              width={450}
+              height={450}
+            />
+          </Link>
         </div>
       </section>
 
       <section className="py-8">
-        <Carousel products={products.data}/>
+        <Carousel products={products.data} />
       </section>
     </div>
   );
