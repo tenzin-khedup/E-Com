@@ -7,7 +7,6 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { userCartStore } from "@/store/cart-store";
-import { Span } from "next/dist/trace";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 
