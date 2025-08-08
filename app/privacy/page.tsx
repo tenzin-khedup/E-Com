@@ -9,7 +9,7 @@ export default function PrivacyPage() {
         </h1>
         <div className="prose prose-lg max-w-none text-gray-700">
           <p>
-            This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from Samten's Carpet Industry.
+            This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from Samten&apos;s Carpet Industry.
           </p>
 
           <h2 className="text-3xl font-bold mt-8 mb-4">Personal Information We Collect</h2>

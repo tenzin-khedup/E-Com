@@ -10,12 +10,12 @@ const Footer: React.FC = () => (
       
       {/* Brand Info & Copyright */}
       <div className="flex flex-col space-y-4 md:col-span-1">
-        <h2 className="text-3xl font-extrabold text-white">Samten's Carpet</h2>
+        <h2 className="text-3xl font-extrabold text-white">Samten&apos;s Carpet</h2>
         <p className="text-sm">
           Exquisite, handcrafted carpets for a touch of elegance in every space.
         </p>
         <div className="mt-auto pt-6 text-sm">
-          © {new Date().getFullYear()} Samten's Carpet. All rights reserved.
+          © {new Date().getFullYear()} Samten&apos;s Carpet. All rights reserved.
         </div>
       </div>
 

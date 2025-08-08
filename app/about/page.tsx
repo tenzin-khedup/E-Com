@@ -8,7 +8,7 @@ export default function AboutPage() {
           Our Story
         </h1>
         <p className="text-lg text-gray-600 leading-relaxed">
-          At Samten's Carpet, we believe a carpet is more than just a floor covering—it's a piece of art that brings warmth and character to your home. Our journey began with a passion for traditional craftsmanship and a vision to share the beauty of handmade carpets with the world. We source our materials ethically and partner with skilled artisans to create timeless pieces that tell a story.
+          At Samten&apos;s Carpet, we believe a carpet is more than just a floor covering—it's a piece of art that brings warmth and character to your home. Our journey began with a passion for traditional craftsmanship and a vision to share the beauty of handmade carpets with the world. We source our materials ethically and partner with skilled artisans to create timeless pieces that tell a story.
         </p>
       </div>
     </div>
