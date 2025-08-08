@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import styles from "./page.module.css";
 import { stripe } from "@/lib/stripe";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -17,7 +16,7 @@ export default async function Home() {
         <div className="mx-auto grid grid-cols-1 items-center justify-items-center gap-8 px-8 sm:px-16 md:grid-cols-2">
           <div className="max-w-md space-y-4">
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl text-black">
-              Welcome to My Ecommerce
+              Welcome to Samten's Carpet
             </h2>
             <p className="text-neutral-600">
               Discover the latest products at the best prices.

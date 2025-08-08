@@ -1,9 +1,12 @@
 @import "tailwindcss";
 
+/* @plugin "tailwindcss-animate"; */
+
+
 body {
-  color: var(--background);
-  background: var(--foreground);
-  /* background-color: white; */
+  /* --- FIX: Swap the variables here --- */
+  color: var(--foreground);
+  background-color: var(--background);
 }
 
 @layer base {
